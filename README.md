@@ -9,8 +9,7 @@ Ce projet est un calculateur d'Indice de Masse Corporelle (IMC) développé en [
 - Interface utilisateur simple et conviviale.
 
 ## Captures d'écran
-![Capture d'écran 1](screenshots/screenshot1.png)
-![Capture d'écran 2](screenshots/screenshot2.png)
+![Capture d'écran ](screenshots/IMC.png)
 
 ## Installation
 1. Clonez le dépôt sur votre machine locale :
