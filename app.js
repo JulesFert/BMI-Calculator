@@ -36,23 +36,23 @@ let app = {
         const imcDescriptionElement = document.getElementById('imcDescription')
         console.log(imcDescriptionElement)
 
-        imcContainer.innerHTML = "Votre IMC est " + result
+        imcContainer.innerHTML = "Your BMI is " + result
 
         let description = null
         
         if (result < 16.5) {
-            description = "en maigreur extrême/dénutrition"
+            description = "in severe underweight/malnutrition"
         } else if (result >= 16.5 && result < 18.5) {
-            description = "maigre"
+            description = "underweight"
         } else if (result >= 18.5 && result < 25) {
-            description = "de corpulence normale"
+            description = "of normal weight"
         } else if (result >= 25 && result < 30) {
-            description = "en surpoids"
+            description = "overweight"
         } else if (result >= 30) {
-            description = "obése"
+            description = "obese"
         }
-
-        imcDescriptionElement.innerHTML = "Vous êtes " + description
+        
+        imcDescriptionElement.innerHTML = "You are " + description;
 
     }
 
