@@ -8,6 +8,10 @@ Ce petit projet est un calculateur d'Indice de Masse Corporelle (IMC) développ�
 - Interprétation de l'IMC selon les catégories de l'Organisation Mondiale de la Santé (OMS).
 - Interface utilisateur simple et intuitive.
 
+## Technologies
+
+Ce projet a été développé à l'aide de Bootstrap pour la mise en page et Javascript pour les fonctionnalités. 
+
 ## Captures d'écran
 ![Capture d'écran ](screenshots/IMC.png)
 
